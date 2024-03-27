@@ -4,7 +4,7 @@ import datetime
 import os
 import requests
 import re
-current = "C:/Users/Yuan/Desktop/NovBeeVSCode/MiscSongs"
+current = "Enter file location" #swap \ with /
 
 hyperlinks = []
 yt = YouTube('https://youtu.be/hI4HND3ZG58')
