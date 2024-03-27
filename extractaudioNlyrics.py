@@ -7,7 +7,7 @@ import re
 current = "C:/Users/Yuan/Desktop/NovBeeVSCode"
 
 hyperlinks = []
-yt = YouTube('https://youtu.be/QO9sW_GLPr4')
+yt = YouTube('https://youtu.be/XXHC4emaVVI')
 yt.streams.filter(only_audio=True).first().download()
 duration = yt.length
 name = yt.title
